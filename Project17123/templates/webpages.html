@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<nav class="navbar sticky-top bg-primary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'profile' %}">EtherNexus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'webpages' %}">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'new_webpages' %}">Create</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </nav>
+    <div>
+    {% for webpage in web %}
+    <p>{{ webpage.title }} &nbsp;&nbsp;&nbsp; <a href="{% url 'content' webpage.id %}">{{ webpage.url }}</a> &nbsp;&nbsp;&nbsp;<a href="{% url 'create_content' webpage.id %}"><i class="bi bi-plus-square-fill"></i></a></p>
+    {% endfor %}
+    </div>
+{% endblock %}
+
+</html>

@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+    {% block body %}
+    <style>
+      .navbar-brand {
+        color: black;
+      }
+      body {
+    background-color: aqua;
+  }
+    </style>
+    <nav class="navbar sticky-top bg-primary" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">EtherNexus</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      </nav>
+        <div>
+          <div class="row align-items-center" style="height: 100vh;">
+            <div class="mx-auto col-8 col-md-6 col-lg-4">
+            <h1>Sign Up</h1>
+            <form method="POST"> {% csrf_token %}
+                <div class="form-floating mb-3">
+                  <input type="text" name='name' class="form-control" id="name" placeholder="Name">
+                  <label for="name" class="form-label">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="date" class="form-control" id="dob" name="dob" placeholder="Date">
+                  <label for="dob">Date Of Birth</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" name='email' class="form-control" id="email" placeholder="Email">
+                    <label for="email" class="form-label">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" name='password' class="form-control" id="id_password" placeholder="Password">
+                    <label for="password" class="form-label">Password</label>
+                  </div>
+                <div>
+                <button type="submit" class="btn btn-primary" onclick="fn(event)">Sign Up</button>
+              </div>
+              </form>
+              <p>Have an account? &nbsp; Then &nbsp;<a href="/login" class="login">Login</a></p>
+            </div>
+          </div>
+    </div>
+    {% endblock body %}
+    {% block js %}
+    <script>
+        function fn(e){
+            e.preventDefault();
+            var pass = document.getElementById('id_password');
+            if (pass.value.length >=8 && pass.value.length <=25) {
+                if (confirm('Are you sure to submit?')) {
+                var form = document.getElementsByTagName('form')[0];
+                form.submit();
+            }
+            }
+            else {
+                alert('Password Length is too Short')
+            }
+            
+          }
+
+        {% for message in messages %}
+         alert('{{message}}')
+        {%endfor%}
+    </script>
+    {% endblock %}
+</html>

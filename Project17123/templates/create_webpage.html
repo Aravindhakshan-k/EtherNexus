@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block body %}
+  <h1>Create a Webpage</h1>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Title</label>
+        <input type="text" class="form-control" id="url"  name="title">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Url</label>
+        <input type="text" class="form-control" id="url" name="url">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Background Image</label>
+        <input type="file" class="form-control" id="b_img" name="background_img">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  
+    {% endblock body %}

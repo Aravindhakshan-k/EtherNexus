@@ -1,0 +1,649 @@
+INFO-2023-03-05 19:40:34,794: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:40:34,834: views | Url Attend
+INFO-2023-03-05 19:40:34,835: views | content view hit
+INFO-2023-03-05 19:40:41,844: basehttp | "POST /register/ HTTP/1.1" 200 3652
+INFO-2023-03-05 19:41:05,843: basehttp | "POST /register/ HTTP/1.1" 200 3596
+INFO-2023-03-05 19:42:28,750: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:29,767: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:29,855: views | Url Attend
+INFO-2023-03-05 19:42:29,855: views | content view hit
+INFO-2023-03-05 19:42:31,350: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:32,067: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:32,130: views | Url Attend
+INFO-2023-03-05 19:42:32,146: views | content view hit
+INFO-2023-03-05 19:42:33,519: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:34,360: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:34,439: views | Url Attend
+INFO-2023-03-05 19:42:34,439: views | content view hit
+INFO-2023-03-05 19:42:36,867: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:37,674: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:37,748: views | Url Attend
+INFO-2023-03-05 19:42:37,753: views | content view hit
+INFO-2023-03-05 19:42:39,207: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:39,937: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:45,333: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:46,099: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:51,486: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:52,339: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:52,427: views | Url Attend
+INFO-2023-03-05 19:42:52,430: views | content view hit
+INFO-2023-03-05 19:42:54,939: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:55,706: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:55,775: views | Url Attend
+INFO-2023-03-05 19:42:55,775: views | content view hit
+INFO-2023-03-05 19:42:58,212: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:42:59,198: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:42:59,282: views | Url Attend
+INFO-2023-03-05 19:42:59,283: views | content view hit
+INFO-2023-03-05 19:43:00,733: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:43:01,637: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:43:01,718: views | Url Attend
+INFO-2023-03-05 19:43:01,719: views | content view hit
+ERROR-2023-03-05 19:43:33,895: log | Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 45, in post
+    print(result1)
+NameError: name 'res' is not defined
+ERROR-2023-03-05 19:43:33,897: basehttp | "POST /register/ HTTP/1.1" 500 75474
+INFO-2023-03-05 19:44:28,481: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-05 19:44:29,310: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-05 19:44:29,371: views | Url Attend
+INFO-2023-03-05 19:44:29,377: views | content view hit
+INFO-2023-03-05 19:44:34,198: basehttp | "GET /register/ HTTP/1.1" 200 3652
+INFO-2023-03-05 19:45:07,896: basehttp | "POST /register/ HTTP/1.1" 200 3652
+INFO-2023-03-05 19:47:00,560: basehttp | "GET /login HTTP/1.1" 301 0
+INFO-2023-03-05 19:47:00,608: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-05 19:47:22,601: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-05 19:47:22,709: basehttp | "GET /profile/ HTTP/1.1" 200 2002
+INFO-2023-03-05 19:47:29,279: basehttp | "GET /logout/ HTTP/1.1" 302 0
+INFO-2023-03-05 19:47:29,330: basehttp | "GET /login/ HTTP/1.1" 200 2439
+INFO-2023-03-05 19:47:36,764: basehttp | "GET /login/ HTTP/1.1" 200 2396
+WARNING-2023-03-05 19:47:37,090: log | Not Found: /favicon.ico
+WARNING-2023-03-05 19:47:37,095: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-05 19:48:21,197: basehttp | "GET /login/ HTTP/1.1" 200 2396
+WARNING-2023-03-05 19:48:21,333: log | Not Found: /favicon.ico
+WARNING-2023-03-05 19:48:21,338: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-05 19:48:23,693: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-05 19:48:31,736: basehttp | "GET /login/ HTTP/1.1" 200 2396
+WARNING-2023-03-05 19:48:31,854: log | Not Found: /favicon.ico
+WARNING-2023-03-05 19:48:31,855: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-05 19:48:47,108: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-05 19:49:42,356: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-05 19:50:24,373: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-05 19:50:27,800: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-05 19:51:11,673: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-05 19:51:11,753: basehttp | "GET /profile/ HTTP/1.1" 200 2004
+INFO-2023-03-05 19:51:15,745: basehttp | "GET /webpages/ HTTP/1.1" 200 1953
+INFO-2023-03-05 19:51:17,580: basehttp | "GET /content/4/ HTTP/1.1" 200 1650
+INFO-2023-03-05 19:51:22,782: basehttp | "GET /webpages/ HTTP/1.1" 200 1953
+INFO-2023-03-05 19:51:25,063: basehttp | "GET /content/4/ HTTP/1.1" 200 1650
+INFO-2023-03-05 19:51:27,459: basehttp | "GET /webpages/ HTTP/1.1" 200 1953
+INFO-2023-03-05 19:51:56,874: basehttp | "GET /logout/ HTTP/1.1" 302 0
+INFO-2023-03-05 19:51:56,928: basehttp | "GET /login/ HTTP/1.1" 200 2439
+INFO-2023-03-05 19:52:13,241: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-05 19:52:13,338: basehttp | "GET /profile/ HTTP/1.1" 200 2003
+INFO-2023-03-05 19:52:31,290: basehttp | "GET /webpages/ HTTP/1.1" 200 1951
+INFO-2023-03-05 19:52:33,397: basehttp | "GET /content/3/ HTTP/1.1" 200 1650
+INFO-2023-03-05 19:52:49,181: basehttp | "GET /webpages/ HTTP/1.1" 200 1951
+INFO-2023-03-05 19:52:52,880: views | inside content create get
+INFO-2023-03-05 19:52:52,967: basehttp | "GET /create_content/3/ HTTP/1.1" 200 1182
+INFO-2023-03-05 19:53:20,931: views | inside post content create
+INFO-2023-03-05 19:53:21,433: basehttp | "POST /create_content/3/ HTTP/1.1" 302 0
+INFO-2023-03-05 19:53:21,739: basehttp | "GET /content/3/ HTTP/1.1" 200 2644
+INFO-2023-03-05 19:53:22,188: basehttp | "GET /media/DSC06708_yGAjVMA.JPG HTTP/1.1" 200 4849664
+INFO-2023-03-05 19:53:38,021: basehttp | "GET /logout/ HTTP/1.1" 302 0
+INFO-2023-03-05 19:53:38,066: basehttp | "GET /login/ HTTP/1.1" 200 2439
+INFO-2023-03-05 19:53:44,577: basehttp | "GET /login/ HTTP/1.1" 200 2396
+WARNING-2023-03-05 19:53:44,974: log | Not Found: /favicon.ico
+WARNING-2023-03-05 19:53:44,981: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-05 19:55:30,831: basehttp | "GET /login/ HTTP/1.1" 200 2396
+WARNING-2023-03-05 19:55:31,196: log | Not Found: /favicon.ico
+WARNING-2023-03-05 19:55:31,202: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-05 19:55:57,799: basehttp | "GET /login/ HTTP/1.1" 200 2396
+WARNING-2023-03-05 19:55:59,345: log | Not Found: /favicon.ico
+WARNING-2023-03-05 19:55:59,351: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-06 10:21:52,491: basehttp | "GET /login/ HTTP/1.1" 200 2396
+WARNING-2023-03-06 10:21:52,859: log | Not Found: /favicon.ico
+INFO-2023-03-06 10:26:09,329: basehttp | "GET /register/ HTTP/1.1" 200 3623
+WARNING-2023-03-06 10:26:09,915: log | Not Found: /favicon.ico
+WARNING-2023-03-06 10:26:09,916: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-06 10:29:33,868: basehttp | "GET /register/ HTTP/1.1" 200 3623
+WARNING-2023-03-06 10:29:35,069: log | Not Found: /favicon.ico
+INFO-2023-03-06 10:30:29,241: basehttp | "POST /register/ HTTP/1.1" 200 3623
+INFO-2023-03-06 10:56:23,582: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:56:26,227: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:56:26,278: views | Url Attend
+INFO-2023-03-06 10:56:26,278: views | content view hit
+INFO-2023-03-06 10:56:27,753: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:56:28,509: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:56:28,570: views | Url Attend
+INFO-2023-03-06 10:56:28,570: views | content view hit
+INFO-2023-03-06 10:56:32,895: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:56:33,759: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:56:33,844: views | Url Attend
+INFO-2023-03-06 10:56:33,857: views | content view hit
+INFO-2023-03-06 10:56:35,308: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:56:36,307: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:56:36,396: views | Url Attend
+INFO-2023-03-06 10:56:36,396: views | content view hit
+INFO-2023-03-06 10:56:43,955: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:56:44,721: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:56:44,780: views | Url Attend
+INFO-2023-03-06 10:56:44,790: views | content view hit
+INFO-2023-03-06 10:56:53,143: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:56:54,092: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:56:54,131: views | Url Attend
+INFO-2023-03-06 10:56:54,134: views | content view hit
+INFO-2023-03-06 10:57:07,587: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:57:08,466: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:57:08,533: views | Url Attend
+INFO-2023-03-06 10:57:08,534: views | content view hit
+INFO-2023-03-06 10:57:29,114: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:57:30,088: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:57:30,162: views | Url Attend
+INFO-2023-03-06 10:57:30,167: views | content view hit
+INFO-2023-03-06 10:57:33,704: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:57:34,823: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:57:34,941: views | Url Attend
+INFO-2023-03-06 10:57:34,942: views | content view hit
+INFO-2023-03-06 10:57:37,467: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:57:38,637: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:57:38,713: views | Url Attend
+INFO-2023-03-06 10:57:38,714: views | content view hit
+INFO-2023-03-06 10:57:40,118: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:57:41,296: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:57:41,362: views | Url Attend
+INFO-2023-03-06 10:57:41,373: views | content view hit
+INFO-2023-03-06 10:57:52,570: basehttp | "GET /register/ HTTP/1.1" 200 3623
+WARNING-2023-03-06 10:57:53,072: log | Not Found: /favicon.ico
+ERROR-2023-03-06 10:58:18,414: log | Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py", line 450, in _clean_fields
+    value = field.clean(value)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/fields.py", line 199, in clean
+    self.validate(value)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/fields.py", line 177, in validate
+    raise ValidationError(self.error_messages["required"], code="required")
+django.core.exceptions.ValidationError: ['This field is required.']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 47, in post
+    result2 = super().post(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/edit.py", line 152, in post
+    if form.is_valid():
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py", line 200, in errors
+    self.full_clean()
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py", line 438, in full_clean
+    self._clean_fields()
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py", line 456, in _clean_fields
+    self.add_error(name, e)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py", line 403, in add_error
+    if field not in self.errors:
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py", line 201, in errors
+    print(self._errors)
+AttributeError: 'UserModelForm' object has no attribute '_err'
+ERROR-2023-03-06 10:58:18,421: basehttp | "POST /register/ HTTP/1.1" 500 120174
+INFO-2023-03-06 10:58:28,766: autoreload | /home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/forms/forms.py changed, reloading.
+INFO-2023-03-06 10:58:29,395: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 10:58:29,462: views | Url Attend
+INFO-2023-03-06 10:58:29,473: views | content view hit
+INFO-2023-03-06 10:58:37,247: basehttp | "GET /register/ HTTP/1.1" 200 3623
+INFO-2023-03-06 10:58:41,912: basehttp | "GET /register/ HTTP/1.1" 200 3623
+INFO-2023-03-06 10:59:10,147: basehttp | "POST /register/ HTTP/1.1" 200 3623
+INFO-2023-03-06 11:03:45,191: basehttp | "POST /register/ HTTP/1.1" 200 3634
+INFO-2023-03-06 11:04:10,045: basehttp | "POST /register/ HTTP/1.1" 302 0
+INFO-2023-03-06 11:04:10,074: basehttp | "GET /login HTTP/1.1" 301 0
+INFO-2023-03-06 11:04:10,249: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-06 11:04:25,534: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-06 11:04:25,619: basehttp | "GET /profile/ HTTP/1.1" 200 2001
+INFO-2023-03-06 12:53:43,816: basehttp | "GET /logout/ HTTP/1.1" 302 0
+INFO-2023-03-06 12:53:43,871: basehttp | "GET /login/ HTTP/1.1" 200 2439
+WARNING-2023-03-06 12:53:48,731: log | Not Found: /favicon.ico
+INFO-2023-03-06 12:53:50,363: basehttp | "GET /register HTTP/1.1" 301 0
+INFO-2023-03-06 12:53:50,393: basehttp | "GET /register/ HTTP/1.1" 200 3634
+INFO-2023-03-06 12:55:18,363: basehttp | "POST /register/ HTTP/1.1" 302 0
+INFO-2023-03-06 12:55:18,389: basehttp | "GET /login HTTP/1.1" 301 0
+INFO-2023-03-06 12:55:18,481: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-06 12:55:43,856: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-06 12:55:43,942: basehttp | "GET /profile/ HTTP/1.1" 200 2001
+INFO-2023-03-06 12:56:21,700: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-06 12:56:24,389: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 12:56:24,490: views | Url Attend
+INFO-2023-03-06 12:56:24,490: views | content view hit
+INFO-2023-03-06 12:56:27,943: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-06 12:56:28,758: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 12:56:28,804: views | Url Attend
+INFO-2023-03-06 12:56:28,804: views | content view hit
+INFO-2023-03-06 12:56:40,246: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-06 12:56:40,945: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 12:56:41,007: views | Url Attend
+INFO-2023-03-06 12:56:41,008: views | content view hit
+INFO-2023-03-06 12:56:43,348: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-06 12:56:44,146: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 12:56:44,217: views | Url Attend
+INFO-2023-03-06 12:56:44,225: views | content view hit
+INFO-2023-03-06 12:56:48,638: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-06 12:56:49,412: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 12:56:49,495: views | Url Attend
+INFO-2023-03-06 12:56:49,496: views | content view hit
+INFO-2023-03-06 12:56:52,032: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-06 12:56:52,994: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 12:56:53,078: views | Url Attend
+INFO-2023-03-06 12:56:53,078: views | content view hit
+INFO-2023-03-06 12:56:54,559: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-06 12:56:55,186: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 12:56:55,281: views | Url Attend
+INFO-2023-03-06 12:56:55,283: views | content view hit
+INFO-2023-03-06 13:03:03,911: basehttp | "GET /logout/ HTTP/1.1" 302 0
+INFO-2023-03-06 13:03:04,170: basehttp | "GET /login/ HTTP/1.1" 200 2439
+INFO-2023-03-06 13:03:09,737: basehttp | "GET /register/ HTTP/1.1" 200 3634
+INFO-2023-03-06 13:03:20,976: basehttp | "GET /register/ HTTP/1.1" 200 3634
+WARNING-2023-03-06 13:03:21,622: log | Not Found: /favicon.ico
+WARNING-2023-03-06 13:03:21,627: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-06 13:05:30,670: basehttp | "POST /register/ HTTP/1.1" 200 3654
+INFO-2023-03-06 13:14:03,017: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-06 13:14:03,777: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 13:14:03,829: views | Url Attend
+INFO-2023-03-06 13:14:03,830: views | content view hit
+INFO-2023-03-06 16:13:05,769: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-06 16:13:06,648: views | Url Attend
+INFO-2023-03-06 16:13:06,649: views | content view hit
+INFO-2023-03-06 16:14:27,706: basehttp | "GET /login HTTP/1.1" 301 0
+INFO-2023-03-06 16:14:30,216: basehttp | "GET /login/ HTTP/1.1" 200 2490
+WARNING-2023-03-06 16:14:43,323: log | Not Found: /favicon.ico
+INFO-2023-03-06 16:15:04,779: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-06 16:15:05,025: basehttp | "GET /profile/ HTTP/1.1" 200 2097
+INFO-2023-03-06 16:15:09,361: basehttp | "GET /webpages/ HTTP/1.1" 200 2045
+INFO-2023-03-06 16:15:12,059: basehttp | "GET /content/3/ HTTP/1.1" 200 2760
+INFO-2023-03-06 16:15:12,265: basehttp | "GET /media/DSC06708_yGAjVMA.JPG HTTP/1.1" 304 0
+INFO-2023-03-06 16:15:18,886: basehttp | "POST /content/3/ HTTP/1.1" 200 2730
+INFO-2023-03-06 16:15:26,086: basehttp | "POST /content/3/ HTTP/1.1" 200 2760
+INFO-2023-03-06 16:21:42,938: basehttp | "POST /content/3/ HTTP/1.1" 200 2730
+INFO-2023-03-07 11:36:59,923: basehttp | "GET /logout/ HTTP/1.1" 302 0
+INFO-2023-03-07 11:36:59,977: basehttp | "GET /login/ HTTP/1.1" 200 2533
+INFO-2023-03-09 10:38:27,293: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 10:38:27,481: views | Url Attend
+INFO-2023-03-09 10:38:27,484: views | content view hit
+INFO-2023-03-09 10:39:01,989: basehttp | "GET /profile HTTP/1.1" 301 0
+INFO-2023-03-09 10:39:02,594: basehttp | "GET /profile/ HTTP/1.1" 302 0
+INFO-2023-03-09 10:39:03,141: basehttp | "GET /login/ HTTP/1.1" 200 2490
+WARNING-2023-03-09 10:39:07,084: log | Not Found: /favicon.ico
+INFO-2023-03-09 10:39:19,138: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-09 10:39:19,209: basehttp | "GET /profile/ HTTP/1.1" 200 2148
+INFO-2023-03-09 10:39:50,709: basehttp | "GET /profile/ HTTP/1.1" 200 2148
+INFO-2023-03-09 10:42:25,715: basehttp | "GET /profile/ HTTP/1.1" 200 2175
+INFO-2023-03-09 10:43:14,194: basehttp | "GET /profile/ HTTP/1.1" 200 2099
+INFO-2023-03-09 11:03:15,328: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:20,720: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:21,095: views | Url Attend
+INFO-2023-03-09 11:03:21,096: views | content view hit
+INFO-2023-03-09 11:03:22,370: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:23,386: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:23,464: views | Url Attend
+INFO-2023-03-09 11:03:23,465: views | content view hit
+INFO-2023-03-09 11:03:30,850: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:31,587: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:34,124: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:34,788: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:38,101: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:38,921: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:41,308: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:42,012: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:42,085: views | Url Attend
+INFO-2023-03-09 11:03:42,091: views | content view hit
+INFO-2023-03-09 11:03:43,361: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:44,010: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:44,063: views | Url Attend
+INFO-2023-03-09 11:03:44,063: views | content view hit
+INFO-2023-03-09 11:03:48,417: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:49,240: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:53,586: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:54,564: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:58,960: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:03:59,629: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:03:59,680: views | Url Attend
+INFO-2023-03-09 11:03:59,680: views | content view hit
+INFO-2023-03-09 11:04:05,038: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:04:05,737: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:04:05,835: views | Url Attend
+INFO-2023-03-09 11:04:05,836: views | content view hit
+ERROR-2023-03-09 11:04:39,058: log | Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 77, in get
+    return super().get(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 225, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 84, in get_context_data
+    likes = LikeModel.objects.filter(user=user).count()
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: content, content_id, id, is_liked
+ERROR-2023-03-09 11:04:39,063: basehttp | "GET /profile/ HTTP/1.1" 500 126779
+INFO-2023-03-09 11:07:52,390: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:07:53,019: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:07:53,083: views | Url Attend
+INFO-2023-03-09 11:07:53,083: views | content view hit
+INFO-2023-03-09 11:07:57,435: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-09 11:07:58,171: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-09 11:07:58,218: views | Url Attend
+INFO-2023-03-09 11:07:58,218: views | content view hit
+ERROR-2023-03-09 11:08:01,876: log | Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 77, in get
+    return super().get(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 225, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 84, in get_context_data
+    likes = LikeModel.objects.filter(content__user=user, is_liked=True).count()
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1445, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1256, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1233, in check_query_object_type
+    raise ValueError(
+ValueError: Cannot query "name:Gokila password:gokila123": Must be "ContentModel" instance.
+ERROR-2023-03-09 11:08:01,879: basehttp | "GET /profile/ HTTP/1.1" 500 127913
+INFO-2023-03-10 16:10:51,570: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:10:52,896: views | Url Attend
+INFO-2023-03-10 16:10:52,897: views | content view hit
+WARNING-2023-03-10 16:11:24,353: log | Not Found: /create/
+WARNING-2023-03-10 16:11:24,354: basehttp | "GET /create/ HTTP/1.1" 404 4209
+WARNING-2023-03-10 16:11:24,591: log | Not Found: /favicon.ico
+WARNING-2023-03-10 16:11:24,592: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-10 16:11:32,718: basehttp | "GET /profile HTTP/1.1" 301 0
+INFO-2023-03-10 16:11:33,359: basehttp | "GET /profile/ HTTP/1.1" 302 0
+INFO-2023-03-10 16:11:33,529: basehttp | "GET /login/ HTTP/1.1" 200 2396
+INFO-2023-03-10 16:11:39,656: basehttp | "GET /login/ HTTP/1.1" 200 2396
+WARNING-2023-03-10 16:11:39,929: log | Not Found: /favicon.ico
+WARNING-2023-03-10 16:11:39,934: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-10 16:11:44,851: basehttp | "GET /register HTTP/1.1" 301 0
+INFO-2023-03-10 16:11:44,940: basehttp | "GET /register/ HTTP/1.1" 200 3598
+INFO-2023-03-10 16:12:20,001: basehttp | "GET /register/ HTTP/1.1" 200 3619
+INFO-2023-03-10 16:13:24,003: basehttp | "GET /register/ HTTP/1.1" 200 3618
+INFO-2023-03-10 16:14:04,187: basehttp | "GET /login HTTP/1.1" 301 0
+INFO-2023-03-10 16:14:04,213: basehttp | "GET /login/ HTTP/1.1" 200 2384
+INFO-2023-03-10 16:23:05,997: basehttp | "POST /login/ HTTP/1.1" 302 0
+ERROR-2023-03-10 16:23:06,541: log | Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 77, in get
+    return super().get(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 225, in get
+    context = self.get_context_data(**kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 84, in get_context_data
+    likes = LikeModel.objects.filter(content__user=user, is_liked=True).count()
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1445, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1256, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1233, in check_query_object_type
+    raise ValueError(
+ValueError: Cannot query "name:Gokila password:gokila123": Must be "ContentModel" instance.
+ERROR-2023-03-10 16:23:06,549: basehttp | "GET /profile/ HTTP/1.1" 500 128070
+INFO-2023-03-10 16:23:42,452: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-10 16:23:44,160: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:23:44,851: views | Url Attend
+INFO-2023-03-10 16:23:44,852: views | content view hit
+INFO-2023-03-10 16:23:50,181: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/views.py changed, reloading.
+INFO-2023-03-10 16:23:50,869: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:23:50,939: views | Url Attend
+INFO-2023-03-10 16:23:50,940: views | content view hit
+INFO-2023-03-10 16:23:56,962: basehttp | "GET /profile/ HTTP/1.1" 200 2094
+INFO-2023-03-10 16:25:55,716: basehttp | "GET /profile/ HTTP/1.1" 200 2091
+INFO-2023-03-10 16:26:09,430: basehttp | "GET /profile/ HTTP/1.1" 200 2092
+INFO-2023-03-10 16:26:16,609: basehttp | "GET /profile/ HTTP/1.1" 200 2091
+INFO-2023-03-10 16:26:22,818: basehttp | "GET /profile/ HTTP/1.1" 200 2091
+INFO-2023-03-10 16:26:28,391: basehttp | "GET /profile/ HTTP/1.1" 200 2091
+INFO-2023-03-10 16:26:33,965: basehttp | "GET /profile/ HTTP/1.1" 200 2091
+INFO-2023-03-10 16:26:35,558: basehttp | "GET /profile/ HTTP/1.1" 200 2091
+INFO-2023-03-10 16:26:40,382: basehttp | "GET /profile/ HTTP/1.1" 200 2091
+INFO-2023-03-10 16:26:46,403: basehttp | "GET /profile/ HTTP/1.1" 200 2091
+INFO-2023-03-10 16:27:02,343: basehttp | "GET /profile/ HTTP/1.1" 200 2094
+INFO-2023-03-10 16:28:52,168: basehttp | "GET /profile/ HTTP/1.1" 200 2094
+INFO-2023-03-10 16:28:53,430: basehttp | "GET /profile/ HTTP/1.1" 200 2094
+INFO-2023-03-10 16:29:41,216: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:29:42,928: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:29:44,158: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:29:44,979: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:29:47,186: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:29:47,838: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:29:50,081: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:29:50,845: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:29:50,902: views | Url Attend
+INFO-2023-03-10 16:29:50,903: views | content view hit
+INFO-2023-03-10 16:29:53,355: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:29:54,016: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:29:56,222: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:29:56,949: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:29:56,993: views | Url Attend
+INFO-2023-03-10 16:29:56,993: views | content view hit
+INFO-2023-03-10 16:29:59,357: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:30:00,320: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:30:00,415: views | Url Attend
+INFO-2023-03-10 16:30:00,425: views | content view hit
+INFO-2023-03-10 16:30:21,054: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:30:21,775: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:30:27,009: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:30:27,786: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:30:29,022: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:30:29,814: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:30:31,043: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:30:31,680: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:30:31,718: views | Url Attend
+INFO-2023-03-10 16:30:31,722: views | content view hit
+INFO-2023-03-10 16:30:46,704: views | Url Attend
+INFO-2023-03-10 16:30:46,705: views | content view hit
+INFO-2023-03-10 16:31:33,518: views | Url Attend
+INFO-2023-03-10 16:31:33,518: views | content view hit
+INFO-2023-03-10 16:32:09,477: views | Url Attend
+INFO-2023-03-10 16:32:09,477: views | content view hit
+INFO-2023-03-10 16:32:19,540: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:32:19,579: views | Url Attend
+INFO-2023-03-10 16:32:19,579: views | content view hit
+INFO-2023-03-10 16:33:10,849: basehttp | "GET /webpages/ HTTP/1.1" 200 1943
+INFO-2023-03-10 16:33:13,191: basehttp | "GET /content/5/ HTTP/1.1" 200 1650
+INFO-2023-03-10 16:33:15,999: basehttp | "GET /webpages/ HTTP/1.1" 200 1943
+INFO-2023-03-10 16:33:17,341: views | inside content create get
+INFO-2023-03-10 16:33:17,391: basehttp | "GET /create_content/5/ HTTP/1.1" 200 1182
+INFO-2023-03-10 16:33:23,746: basehttp | "GET /logout/ HTTP/1.1" 302 0
+INFO-2023-03-10 16:33:23,801: basehttp | "GET /login/ HTTP/1.1" 200 2427
+INFO-2023-03-10 16:33:44,446: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-10 16:33:44,565: basehttp | "GET /profile/ HTTP/1.1" 200 2087
+INFO-2023-03-10 16:33:47,814: basehttp | "GET /webpages/ HTTP/1.1" 200 1951
+INFO-2023-03-10 16:33:49,509: basehttp | "GET /content/3/ HTTP/1.1" 200 2636
+INFO-2023-03-10 16:33:50,445: basehttp | "GET /media/DSC06708_yGAjVMA.JPG HTTP/1.1" 200 4849664
+INFO-2023-03-10 16:34:04,067: basehttp | "POST /content/3/ HTTP/1.1" 200 2719
+INFO-2023-03-10 16:34:21,778: basehttp | "POST /content/3/ HTTP/1.1" 200 2718
+INFO-2023-03-10 16:35:35,162: basehttp | "POST /content/3/ HTTP/1.1" 200 2728
+INFO-2023-03-10 16:36:00,320: basehttp | "POST /content/3/ HTTP/1.1" 200 2728
+INFO-2023-03-10 16:36:47,827: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:36:48,451: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:36:48,488: views | Url Attend
+INFO-2023-03-10 16:36:48,492: views | content view hit
+INFO-2023-03-10 16:36:55,569: views | Url Attend
+INFO-2023-03-10 16:36:55,570: views | content view hit
+INFO-2023-03-10 16:37:00,481: views | Url Attend
+INFO-2023-03-10 16:37:00,481: views | content view hit
+INFO-2023-03-10 16:37:04,436: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:37:04,474: views | Url Attend
+INFO-2023-03-10 16:37:04,479: views | content view hit
+INFO-2023-03-10 16:37:12,933: basehttp | "GET /content_update/14/ HTTP/1.1" 200 2059
+INFO-2023-03-10 16:37:32,020: basehttp | "GET /webpages/ HTTP/1.1" 200 1951
+INFO-2023-03-10 16:37:35,716: views | inside content create get
+INFO-2023-03-10 16:37:35,746: basehttp | "GET /create_content/3/ HTTP/1.1" 200 1182
+INFO-2023-03-10 16:38:04,320: views | inside content create get
+INFO-2023-03-10 16:38:04,351: basehttp | "GET /create_content/3/ HTTP/1.1" 200 1025
+INFO-2023-03-10 16:38:43,198: views | inside post content create
+INFO-2023-03-10 16:38:43,655: basehttp | "POST /create_content/3/ HTTP/1.1" 302 0
+ERROR-2023-03-10 16:38:43,930: log | Internal Server Error: /content/3/
+Traceback (most recent call last):
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 196, in get
+    return super().get(request, *args, **kwargs)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/views/generic/list.py", line 174, in get
+    context = self.get_context_data()
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/views.py", line 203, in get_context_data
+    print(contents)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/query.py", line 373, in __repr__
+    return "<%s %r>" % (self.__class__.__name__, data)
+  File "/home/dudu/Desktop/Ether/environ/lib/python3.10/site-packages/django/db/models/base.py", line 586, in __repr__
+    return "<%s: %s>" % (self.__class__.__name__, self)
+  File "/home/dudu/Desktop/Ether/Project17123/test_app1/models.py", line 56, in __str__
+    return 'title:'+self.title +' '+'slug:'+self.slug
+AttributeError: 'ContentModel' object has no attribute 'slug'
+ERROR-2023-03-10 16:38:43,935: basehttp | "GET /content/3/ HTTP/1.1" 500 94801
+INFO-2023-03-10 16:39:11,736: autoreload | /home/dudu/Desktop/Ether/Project17123/test_app1/models.py changed, reloading.
+INFO-2023-03-10 16:39:12,615: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 16:39:12,650: views | Url Attend
+INFO-2023-03-10 16:39:12,651: views | content view hit
+INFO-2023-03-10 16:39:15,379: basehttp | "GET /content/3/ HTTP/1.1" 200 3700
+INFO-2023-03-10 16:39:15,494: basehttp | "GET /media/IMG_3708.JPG HTTP/1.1" 200 5121569
+INFO-2023-03-10 21:20:27,401: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-10 21:20:27,589: views | Url Attend
+INFO-2023-03-10 21:20:27,589: views | content view hit
+INFO-2023-03-10 21:28:09,016: basehttp | "GET /login HTTP/1.1" 301 0
+INFO-2023-03-10 21:28:09,162: basehttp | "GET /login/ HTTP/1.1" 200 2384
+WARNING-2023-03-10 21:28:11,212: log | Not Found: /favicon.ico
+INFO-2023-03-10 21:28:27,377: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-10 21:28:27,460: basehttp | "GET /profile/ HTTP/1.1" 200 2087
+INFO-2023-03-10 21:28:30,419: basehttp | "GET /webpages/ HTTP/1.1" 200 1951
+INFO-2023-03-10 21:28:32,871: basehttp | "GET /content/3/ HTTP/1.1" 200 8014
+INFO-2023-03-10 21:28:33,126: basehttp | "GET /media/IMG_3708.JPG HTTP/1.1" 304 0
+INFO-2023-03-10 21:28:52,245: basehttp | "POST /content/3/ HTTP/1.1" 200 8014
+INFO-2023-03-10 21:29:11,915: basehttp | "POST /content/3/ HTTP/1.1" 200 8014
+INFO-2023-03-10 21:35:46,287: basehttp | "POST /content/3/ HTTP/1.1" 200 8286
+INFO-2023-03-10 21:36:44,513: basehttp | "POST /content/3/ HTTP/1.1" 200 3972
+INFO-2023-03-10 21:36:45,597: basehttp | "GET /media/DSC06708_yGAjVMA.JPG HTTP/1.1" 200 4849664
+INFO-2023-03-10 21:36:45,632: basehttp | "GET /media/IMG_3708.JPG HTTP/1.1" 200 5121569
+WARNING-2023-03-10 21:36:45,695: log | Not Found: /favicon.ico
+WARNING-2023-03-10 21:36:45,697: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-10 21:37:47,501: basehttp | "POST /content/3/ HTTP/1.1" 200 3972
+INFO-2023-03-10 21:38:21,151: basehttp | "POST /content/3/ HTTP/1.1" 200 3972
+INFO-2023-03-10 21:41:53,376: basehttp | "POST /content/3/ HTTP/1.1" 200 3936
+WARNING-2023-03-10 21:41:53,513: log | Not Found: /favicon.ico
+WARNING-2023-03-10 21:41:53,515: basehttp | "GET /favicon.ico HTTP/1.1" 404 4221
+INFO-2023-03-10 21:42:23,059: basehttp | "POST /content/3/ HTTP/1.1" 200 3945
+INFO-2023-03-10 21:42:37,426: basehttp | "POST /content/3/ HTTP/1.1" 200 3952
+INFO-2023-03-10 21:43:05,440: basehttp | "POST /content/3/ HTTP/1.1" 200 3959
+INFO-2023-03-10 21:44:51,378: basehttp | "POST /content/3/ HTTP/1.1" 200 3941
+INFO-2023-03-10 21:45:12,483: basehttp | "POST /content/3/ HTTP/1.1" 200 3936
+INFO-2023-03-10 21:45:18,299: basehttp | "POST /content/3/ HTTP/1.1" 200 3936
+INFO-2023-03-10 21:48:32,961: basehttp | "POST /content/3/ HTTP/1.1" 200 4046
+WARNING-2023-03-10 21:48:33,106: log | Not Found: /favicon.ico
+INFO-2023-03-10 21:49:50,526: basehttp | "POST /content/3/ HTTP/1.1" 200 4058
+INFO-2023-03-10 21:50:45,020: basehttp | "POST /content/3/ HTTP/1.1" 200 4057
+INFO-2023-03-10 21:52:44,488: basehttp | "POST /content/3/ HTTP/1.1" 200 4499
+INFO-2023-03-11 10:52:00,525: autoreload | Watching for file changes with StatReloader
+INFO-2023-03-11 10:52:00,797: views | Url Attend
+INFO-2023-03-11 10:52:00,798: views | content view hit
+INFO-2023-03-11 10:52:26,276: basehttp | "GET /register/ HTTP/1.1" 200 3890
+INFO-2023-03-11 10:52:49,496: basehttp | "GET /login/ HTTP/1.1" 200 2656
+INFO-2023-03-11 10:53:05,184: basehttp | "POST /login/ HTTP/1.1" 302 0
+INFO-2023-03-11 10:53:05,413: basehttp | "GET /profile/ HTTP/1.1" 200 2359
+INFO-2023-03-11 10:53:10,697: basehttp | "GET /webpages/ HTTP/1.1" 200 2223
+INFO-2023-03-11 10:53:14,988: views | inside content create get
+INFO-2023-03-11 10:53:15,099: basehttp | "GET /create_content/3/ HTTP/1.1" 200 1025
+INFO-2023-03-11 10:53:20,997: basehttp | "GET /content/3/ HTTP/1.1" 200 4499
+INFO-2023-03-11 10:53:21,367: basehttp | "GET /media/DSC06708_yGAjVMA.JPG HTTP/1.1" 304 0
+INFO-2023-03-11 10:53:21,472: basehttp | "GET /media/IMG_3708.JPG HTTP/1.1" 200 5121569
+INFO-2023-03-11 10:53:36,389: basehttp | "POST /content/3/ HTTP/1.1" 200 4500
+INFO-2023-03-11 10:54:03,348: basehttp | "GET /content_update/15/ HTTP/1.1" 200 2342
+INFO-2023-03-11 10:54:11,019: basehttp | "GET /content_delete/15/ HTTP/1.1" 200 1462
+INFO-2023-03-11 10:54:12,729: basehttp | "POST /content_delete/15/ HTTP/1.1" 302 0
+INFO-2023-03-11 10:54:12,793: basehttp | "GET /content/3/ HTTP/1.1" 200 3073
+INFO-2023-03-11 10:54:18,086: basehttp | "GET /webpages/ HTTP/1.1" 200 2223
+INFO-2023-03-11 10:54:19,791: basehttp | "GET /profile/ HTTP/1.1" 200 2359
+INFO-2023-03-11 10:54:46,672: basehttp | "GET /logout/ HTTP/1.1" 302 0
+INFO-2023-03-11 10:54:46,713: basehttp | "GET /login/ HTTP/1.1" 200 2699

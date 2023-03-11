@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<nav class="navbar sticky-top bg-primary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{% url 'profile' %}">EtherNexus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'webpages' %}">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </nav>
+    {% for content in contents %}
+    <li><img style="width:300px;height:150px"src="/media/{{ content.image }}"/></li>
+    <li>{{ content.title | title }}&nbsp;&nbsp;&nbsp; <a href="{% url 'update' content.id %}"><i class="bi bi-pencil-square" ></a></i>&nbsp;&nbsp;&nbsp;<a href="{% url 'delete' content.id %}"><i class="bi bi-trash3"></i></a></li>
+    <li>{{ content.body }}</li>
+    <li>{{ content.created }}</li>
+    <li>{{ content.updated }}</li><br>
+    <form method="post">{% csrf_token %}
+        <input type='hidden' name='like' value='{{content.id}}'>
+        <input type="submit" value="{% if content.likemodel.is_liked %}Liked{% else %}Like{% endif %}">
+    </form>
+    {% for comment in content.commentmodel_set.all %}
+    <div>
+      <h3 style="display: inline-block">{{ comment.name|title}}</h3>
+      <p style="display: inline-block; font-size: smaller">{{ comment.date }}</p>
+      <h5>{{ comment.comment|title}}</h5>
+    </div>
+    {% endfor %}
+    <form method="post">{% csrf_token %}
+        <input type='hidden' name='content_id' value='{{content.id}}'>
+        <input type='text' name='name'>
+        <input type='text' name='comment'>
+        <input type="submit" value="Comment">
+    </form>
+    {% endfor %}
+{% endblock body %}

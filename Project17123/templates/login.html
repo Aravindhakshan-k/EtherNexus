@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<style>
+  .navbar-brand {
+    color: black;
+  }
+
+  body {
+    background-color: aqua;
+  }
+</style>
+<nav class="navbar sticky-top bg-primary" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EtherNexus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+</nav>
+<div class="row align-items-center" style="height: 100vh;">
+  <div class="mx-auto col-8 col-md-6 col-lg-4">
+    <div>
+      <h1>Login</h1><br>
+      <form method='POST'>{% csrf_token %}
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+          <label for="email" class="form-label">Email address</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+          <label for="password" class="form-label">Password</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <p>Not Registered? &nbsp; Then &nbsp;<a href="/register" class="sign">Sign Up</a></p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block js %}
+<script>
+  {% for message in messages %}
+  alert('{{message}}')
+  {% endfor %}
+</script>
+{% endblock %}
+
+</html>
